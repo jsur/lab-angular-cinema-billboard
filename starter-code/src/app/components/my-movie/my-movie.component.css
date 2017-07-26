@@ -1,0 +1,46 @@
+header * {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.room {
+  font-size: 24px;
+}
+
+.title {
+  font-size: 28px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container img {
+  height: 600px;
+  width: 400px;
+  margin-right: 60px;
+}
+
+.topic {
+  display: flex;
+  flex-direction: row;
+}
+
+.topic p {
+  margin: 2px;
+}
+
+.topic-title {
+  width: 150px;
+  font-weight: bold;
+}
+
+.synopsis {
+  width: 100%;
+}
+
+button {
+  border: none;
+  background-color: lightblue;
+}

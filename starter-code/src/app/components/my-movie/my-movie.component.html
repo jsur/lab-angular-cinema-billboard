@@ -1,0 +1,40 @@
+<header>
+  <p class="room">Room {{movie.room}}</p>
+  <p class="title">{{movie.title}}</p>
+</header>
+<div class="flex-container">
+  <img src="{{movie.poster}}">
+  <div class="movie-info">
+    <div class="topic">
+      <p class="topic-title">Genres</p>
+      <div *ngFor="let genre of movie.genres">
+        <p>{{genre}}</p>
+      </div>
+    </div>
+    <div class="topic">
+      <p class="topic-title">Year</p>
+      <p>{{movie.year}}</p>
+    </div>
+    <div class="topic">
+      <p class="topic-title">Director</p>
+      <p>{{movie.director}}</p>
+    </div>
+    <div class="topic">
+      <p class="topic-title">Actors</p>
+      <div *ngFor="let actor of movie.actors">
+        <p>{{actor}}</p>
+      </div>
+    </div>
+    <div class="topic">
+      <p class="topic-title">Schedule</p>
+      <div *ngFor="let time of movie.hours">
+        <p>{{time}}</p>
+      </div>
+    </div>
+    <div class="synopsis">
+      <p class="topic-title">Synopsis</p>
+      <p>{{movie.synopsis}}</p>
+    </div>
+    <button (click)="goBack()" type="button" name="button">HOME</button>
+  </div>
+</div>

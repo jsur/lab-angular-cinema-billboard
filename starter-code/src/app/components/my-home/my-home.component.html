@@ -1,0 +1,12 @@
+<h1>Home component</h1>
+<div *ngIf="movies" class="movie-container">
+  <div *ngFor="let movie of movies">
+    <div class="movie-card">
+      <p>Room {{movie.room}}</p>
+      <img src="{{movie.poster}}" alt="Movie poster" width="200" height="300">
+      <p>
+        <a routerLink="/movie/{{movie.id}}">{{movie.title}}</a>
+      </p>
+    </div>
+  </div>
+</div>

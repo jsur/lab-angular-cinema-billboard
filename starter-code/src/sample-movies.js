@@ -16,8 +16,11 @@
       "William Sadler",
       "Clancy Brown",
       "Gil Bellows"
-    ]
-  }, {
+    ],
+    hours: ['Wednesday 19:30, 22:30', 'Tuesday 19:30, 22:30'],
+    room: 5
+  },
+  {
     id: 2,
     title: "The Godfather",
     poster: "https://i.imgur.com/Uzvny9I.jpg",
@@ -34,8 +37,11 @@
       "Richard S. Castellano",
       "Robert Duvall",
       "Sterling Hayden"
-    ]
-  }, {
+    ],
+    hours: ['Monday 19:30, 22:30', 'Friday 19:30, 22:30'],
+    room: 4
+  },
+  {
     id: 3,
     title: "The Godfather Part II",
     poster: "https://i.imgur.com/abJNkWI.jpg",
@@ -52,8 +58,11 @@
       "Robert De Niro",
       "John Cazale",
       "Talia Shire"
-    ]
-  }, {
+    ],
+    hours: ['Saturday 19:30, 22:30', 'Sunday 19:30, 22:30'],
+    room: 4
+  },
+  {
     id: 4,
     title: "The Dark Knight",
     poster: "https://i.imgur.com/3jLPB46.jpg",
@@ -70,8 +79,10 @@
       "Michael Caine",
       "Maggie Gyllenhaal",
       "Gary Oldman"
-    ]
-  }, {
+    ],
+    hours: ['Wednesday 19:30, 22:30', 'Sunday 19:30, 22:30'],
+    room: 3
+  },
   {
     id: 5,
     title: "Schindler's List",
@@ -89,6 +100,8 @@
       "Caroline Goodall",
       "Jonathan Sagall",
       "Embeth Davidtz"
-    ]
+    ],
+    hours: ['Monday 18:30, 22:30', 'Sunday 13:30, 22:30'],
+    room: 1
   }
 ]

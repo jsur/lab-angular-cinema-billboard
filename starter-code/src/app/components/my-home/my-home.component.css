@@ -1,0 +1,18 @@
+.movie-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  text-align: center;
+  padding: 10px;
+  width: 300px;
+  background-color: tomato;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+}
